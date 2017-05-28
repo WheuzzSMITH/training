@@ -1,0 +1,26 @@
+# fibonacci sequence
+# suite de fibonacci
+
+a, b, c = 1, 1, 1
+
+# create a loop which calculates the fibonacci sequence
+# loop continue as long as inferior than 10
+while (c < 10):
+    a, b, c = b, a+b, c+1
+    print(b)
+
+
+RESULT(AT)****************************************
+
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+
+**************************************************
