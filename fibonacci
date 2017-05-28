@@ -5,6 +5,9 @@ a, b, c = 1, 1, 1
 
 # create a loop which calculates the fibonacci sequence
 # loop continue as long as inferior than 10
+
+# crée une boucle qui calcul la suite de fibonacci
+# la boucle ne s'arrête pas tant que c est inférieur à 10
 while (c < 10):
     a, b, c = b, a+b, c+1
     print(b)
