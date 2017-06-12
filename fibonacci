@@ -1,19 +1,31 @@
-# fibonacci sequence
 # suite de fibonacci
+# fibonacci sequence
+
+NEW/NOUVELLE VERSION*************************************** français(french)
+
+a, b, c = 1, 1, 1   # Déclaration des variables
+                    # a et b sont les opérateurs
+                    # c est le compteur qui indiquera à la boucle quand s'arrêter
+
+while (c < 50):     # Création d'une boucle qui ne s'arrêtera pas tant que c est inférieur à 50
+    print(c, ":", b, type(b))   # Affiche le résultat du calcul ci-dessous
+    a, b, c = b, a+b, c+1   # Calcul la suite de Fibonacci qu'affichera la fonction print ci-dessus
+
+OLD/ANCIENNE VERSION**************************************** français(french), english(anglais)
 
 a, b, c = 1, 1, 1
 
-# create a loop which calculates the fibonacci sequence
-# loop continue as long as inferior than 10
-
 # crée une boucle qui calcul la suite de fibonacci
 # la boucle ne s'arrête pas tant que c est inférieur à 10
+
+# create a loop which calculates the fibonacci sequence
+# loop continue as long as inferior than 10
 while (c < 10):
     a, b, c = b, a+b, c+1
     print(b)
 
 
-RESULT(AT)****************************************
+RESULT(AT)*****************************************
 
 2
 3
@@ -26,4 +38,4 @@ RESULT(AT)****************************************
 89
 144
 
-**************************************************
+***************************************************
