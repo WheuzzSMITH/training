@@ -1,0 +1,18 @@
+#-*- coding: utf-8 -*-
+import os
+
+# Petit programme console qui sert à calculer les intérêts cumulés sur un taux fixe de 4.3%
+
+capital = 100  # Somme d'euros déposés
+counter = 0  # Compteur qui représente le nombre d'années
+
+print("Intérêts cumulés pendant 20 ans, par capitalisation d'une somme de 100 euros sur un taux fixe de 4.3%\n")
+
+while (counter < 20):  # le 20 représente pendant combien d'années les intérêts sont cumulés
+    print(counter, "année avec 4.3% d'intérêt :", capital * 1.043, "€")
+    counter = counter + 1      # Compteur
+    capital = capital * 1.043  # 1.043 est utilisé pour un taux fixe de 4.3
+                               # Si vous souhaitez changer le taux fixe, vous devez modifier le 43 (de 1.043)
+                               # qui représente le taux fixe de 4.3%, en par exemple 1.011 si le taux fixe est de 1.1%
+
+os.system("pause")
